@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom'
 import { db } from "../Firebase/Firebase";
-import { updateDoc, doc } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-firestore.js";
+import { updateDoc, doc } from "firebase/firestore";
 import { Form, Button } from 'react-bootstrap';
 import { AiOutlineArrowLeft } from 'react-icons/ai';
 
@@ -54,7 +54,7 @@ const UpDateUser = () => {
         })
     }
 
-    return (
+  return (
         <div >
             <div className='py-2 px-5 bg-light' style={{ Width: "auto" }}>
                 <h1>Modifier un utilisateur</h1>

@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Form, Button } from 'react-bootstrap';
 import { db } from "../Firebase/Firebase";
-import { addDoc, collection } from  "https://www.gstatic.com/firebasejs/9.20.0/firebase-firestore.js";
+import { addDoc, collection } from "firebase/firestore";
 import { AiOutlineArrowLeft } from 'react-icons/ai';
 
 const AddUser = () => {

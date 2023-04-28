@@ -7,7 +7,7 @@ import { FaEye } from 'react-icons/fa';
 import { BsFillPencilFill } from 'react-icons/bs';
 import { AiFillDelete } from 'react-icons/ai';
 import { db } from "../Firebase/Firebase";
-import { collection, getDocs, deleteDoc, doc } from "https://www.gstatic.com/firebasejs/9.20.0/firebase-firestore.js";
+import { collection, getDocs, deleteDoc, doc } from "firebase/firestore";
 
 
 const Home = () => {
